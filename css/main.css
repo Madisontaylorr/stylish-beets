@@ -8,14 +8,14 @@ html }
 
 h1 {
   color: #3f1622;
-  font-family: "PT Serif", sans-serif;
+  font-family: "PT+Serif", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 a {
   color: #8f2440;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT+Sans", sans-serif;
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: bold;
@@ -43,7 +43,7 @@ a:hover {
 
 h2 {
   cplour #3f1622;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT+Sans" sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
 }
@@ -62,23 +62,23 @@ img {
 figcaption {
   font-style: italic;
   font-size: .8rem;
-  font-family: "PT Serif" , serif;
+  font-family: "PT+Serif" , serif;
 }
 
 .bold {
   font-weight: bold;
   font-size 1.125rem;
-  font-family: "PT Serif"
+  font-family: "PT+Serif"
 }
 
 p {
-  font-family: "PT Serif", serif;
+  font-family: "PT+Serif", serif;
   font-weight: normal;
   font-size: 1rem;
 }
 
 dt {
-  font-family: "PT Serif", serif;
+  font-family: "PT+Serif", serif;
   font-weight: normal;
   font-size: 1rem;
 }
@@ -89,11 +89,11 @@ ul {
 }
 
 .varieties {
-  font-family: "PT Serif", serif;
+  font-family: "PT+Serif", serif;
 }
 
 .quote {
-  font-family: "PT Serif", serif;
+  font-family: "PT+Serif", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 2rem;
