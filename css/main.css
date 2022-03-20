@@ -1,3 +1,97 @@
+
+{
+  background-colour:#c9b5ab;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #3f1622;
+  font-family: "PT Serif", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a {
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color:#3f1622;
+  text-decoration: underline;
+}
+
+.no-number {
+  list-style: none;
+}
+
+.wiki:hover {
+  color: #3f1622;
+}
+
+.wiki {
+  color: #8f2440
+  text-decoration: underline;
+  font-size: 0.8rem
+  line-height: normal;
+}
+
+h2 {
+  cplour #3f1622;
+  font-family: "PT Sans" sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+figure {
+  desplay: inline-block;
+  text-align: center;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: .8rem;
+  font-family: "PT Serif" , serif;
+}
+
+.bold {
+  font-weight: bold;
+  font-size 1.125rem;
+  font-family: "PT Serif"
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+dt {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+ul {
+  font-size: 1rem;
+  list-style-type: circle;
+}
+
+
+
+
 Typefaces: PT Sans (bold), PT Serif (regular, italic, bold) — from Google Fonts
 Text sizes: 1.5rem, 1.125rem, 0.8rem
 Line height: 1.5
