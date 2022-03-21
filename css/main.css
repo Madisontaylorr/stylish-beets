@@ -1,5 +1,10 @@
-html }
-  background-colour: #c9b5ab;
+html {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
@@ -8,26 +13,28 @@ html }
 
 h1 {
   color: #3f1622;
-  font-family: "PT+Serif", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 a {
   color: #8f2440;
-  font-family: "PT+Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   text-decoration: none;
-  font-size: 1.125rem;
-  font-weight: bold;
 }
 
 a:hover {
-  color:#3f1622;
+  color: #3f1622;
   text-decoration: underline;
 }
 
 .no-number {
   list-style: none;
+  font-weight: normal;
+}
+
+nav {
+  font-weight: bold;
 }
 
 .wiki:hover {
@@ -35,21 +42,21 @@ a:hover {
 }
 
 .wiki {
-  color: #8f2440
+  color: #8f2440;
   text-decoration: underline;
-  font-size: 0.8rem
+  font-size: .8rem;
   line-height: normal;
 }
 
 h2 {
-  cplour #3f1622;
-  font-family: "PT+Sans" sans-serif;
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 figure {
-  desplay: inline-block;
+  display: inline-block;
   text-align: center;
 }
 
@@ -61,40 +68,43 @@ img {
 
 figcaption {
   font-style: italic;
+  font-weight: normal;
   font-size: .8rem;
-  font-family: "PT+Serif" , serif;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: .8rem;
 }
 
 .bold {
   font-weight: bold;
-  font-size 1.125rem;
-  font-family: "PT+Serif"
-}
-
-p {
-  font-family: "PT+Serif", serif;
-  font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.125rem;
+  font-family: "PT Serif", serif;
 }
 
 dt {
-  font-family: "PT+Serif", serif;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+
+dd {
+  font-size: .8rem;
   font-weight: normal;
-  font-size: 1rem;
 }
 
 ul {
-  font-size: 1rem;
+  font-size: .8rem;
   list-style-type: circle;
 }
 
 .varieties {
-  font-family: "PT+Serif", serif;
+  font-family: "PT Serif", serif;
 }
 
 .quote {
-  font-family: "PT+Serif", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
